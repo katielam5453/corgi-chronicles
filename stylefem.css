@@ -1,0 +1,102 @@
+.newspaper-header {
+    margin: 25px 0;
+ }
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: 'Cormorant Garamond', Serif;
+    Font-Size: 55px;
+    }
+
+h2 {
+    font-family: courier;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Fira Sans', Sans-Serif;
+    Font-Size: 25px;
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+.story {
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+.story-text {
+    line-height: 1.5;
+}
+
+.story-image {
+  width: 100%;
+}
+
+.quarter {
+    width: 25%;
+  }
+
+.half {
+    width: 50%;
+}
+
+.three-quarter {
+   width: 75%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.nav-item:nth-child(1) {background-color: pink}
+.nav-item:nth-child(2) {background-color: rgb(247, 170, 183)}
+.nav-item:nth-child(3) {background-color: rgb(216, 110, 128)}
+.nav-item:nth-child(4) {background-color: rgb(238, 93, 117)}
+.nav-item:nth-child(5) {background-color: rgb(240, 102, 125)}
+
+p {
+  color: black;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+section {
+    display:flex;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color
+}
